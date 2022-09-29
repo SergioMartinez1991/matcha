@@ -1,50 +1,122 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Sergio</title> 
+        <title>mi primera practica matcha</title>
         <style>
-            h1{
-                color: rgb(30, 210, 81);
+            h1 {
+                color: rgb(9, 6, 61);
+            }
+            p {
+                color: hsl(180, 1%, 34%);
+            }
+           
+            button {
+                background-color: rgb(43, 0, 255);
+                color: #025157;
+            }
+            body {
+                color: #6bdd65;
+            }
+            header{
+                    margin: 40px 40px 40px;
+                    font-size: 0px;
+            }
+            li{
+                margin: 25px;
+                color: #025157;
+                display: inline;
+            }
+            .header > * {
+                    display: inline-block;
+                  font-size: 16px;
+                  vertical-align: middle;
+                  height: 100%;
+                  line-height: 45px;
+                  font-family: sans-serif;
+            }
+            .logo {
+                width: 15%;
+            }
+            .logo > img {
+                width: 50%;
+            }
+            .navbar{
+                width: 70%;
+                text-align: center;
+                font-weight: 500;
+
+            }
+            .action{
+                
+                width: 15%;
+
             }
 
-            h4{
-                color: #46484c;
-            }£
-             p{
-                color: #9b1e1ecc;
+            .action > button{
+                padding: 14px 12px;
+                color:white;
+                background: #67b54b;
+                border-radius: 5px;
+                border: none;
+                font-size: 14px;
+                margin-left: 10px;
+            
             }
 
-            button{
-                color: #fff;
-                background-color: black;
+            .main{
+                text-align: center;
             }
 
-            body{
-                color: #fffbf7;
-            }
-
+            
+            
         </style>
     </head>
-    <bodY>
-        <!--este es un comentaro-->
+  
+
+<body>
+    <header class="header">
+        <a href="/" class="logo">
+            <img src=" https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"
+
+             alt="img matcha">
+        </a>
+
+        <nav class="navbar">
+        <ul class="texto_barra">
+        <li>plataforma</li>
+        <li>precios</li>
+        <li>clientes</li>
+        <li>recursos</li>
+        <li>sobre</li>
+        </ul>
+        </nav>
+
+        <div class="action"> 
+            <a>
+                Registo
+            </a>
+            <button class="action_button" href="https://google.com/">
+                inicio
+            </button>
+        </div>
+    </header>
+    <section class="main">
         <h1>Build your blog. Build your business.</h1>
-        <h4>Build your blog. Build your business.</h4>
-        <p>Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.</p>
-        <p>Start publishing today with <strong>a free 7-day trial.</strong>
-        <br/> <br/><!--salto de linea br-->
-        <strong>No credit card</strong> required.
+        <p>
+            Instantly publish articles, drive more traffic, grow your email list,
+            and see your blog’s impact on sales.
         </p>
         <form>
-            <!--Cualquier elemento html-->
-            <input type="email" />
+            <input type="email" placeholder="ingresa tu correo electronico" />
             <button type="submit">
                 try it now &rarr;
             </button>
         </form>
-        </br>
-        <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4be27a080000640005083b6d/0x0.png" 
-             alt="mi etiqueta">
-
+        <p>Start publishing today with a free 7-day trial.<br/>
+        <strong>No credit card required </strong>
+        </p>
         
-    </bodY>
+        <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4be27a080000640005083b6d/0x0.png" alt="Mi etiqueta">
+    </section>
+    </body>
 </html>
