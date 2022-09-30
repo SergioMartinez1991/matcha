@@ -1,98 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>mi primera practica matcha</title>
-        <style>
-            h1 {
-                color: rgb(34, 26, 185);
-            }
-            p {
-                color: hsl(180, 57%, 50%);
-            }
-           
-            button {
-                background-color: rgb(43, 0, 255);
-                color: git#025157;
-            }
-            body {
-                color: #6bdd65;
-            }
-            header{
-                    margin: 40px 40px 40px;
-                    font-size: 0px;
-            }
-            li{
-                margin: 25px;
-                color: #025157;
-                display: inline;
-            }
-            .header > * {
-                  display: inline-block;
-                  font-size: 16px;
-                  vertical-align: middle;
-                  height: 100%;
-                  line-height: 45px;
-                  font-family: sans-serif;
-            }
-            .logo {
-                width: 15%;
-            }
-            .logo > img {
-                width: 50%;
-            }
-            .navbar{
-                width: 70%;
-                text-align: center;
-                font-weight: 500;
 
-            }
-            .action{
-                
-                width: 15%;
+<head>
+    <title>mi primera practica matcha</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
 
-            }
-
-            .action > button{
-                padding: 14px 12px;
-                color:white;
-                background: #67b54b;
-                border-radius: 5px;
-                border: none;
-                font-size: 14px;
-                margin-left: 10px;
-            
-            }
-
-            .main{
-                text-align: center;
-            }
-
-            
-            
-        </style>
-    </head>
-  
 
 <body>
     <header class="header">
         <a href="/" class="logo">
-            <img src=" https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"
-
-             alt="img matcha">
+            <img src=" https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="img matcha">
         </a>
 
         <nav class="navbar">
-        <ul class="texto_barra">
-        <li>plataforma</li>
-        <li>precios</li>
-        <li>clientes</li>
-        <li>recursos</li>
-        <li>sobre</li>
-        </ul>
+            <ul class="texto_barra">
+                <li>plataforma</li>
+                <li>precios</li>
+                <li>clientes</li>
+                <li>recursos</li>
+                <li>sobre</li>
+            </ul>
         </nav>
 
-        <div class="action"> 
-            <a>
+        <div class="action">
+            <a style="color: red">
                 Registo
             </a>
             <button class="action_button" href="https://google.com/">
@@ -100,6 +32,7 @@
             </button>
         </div>
     </header>
+
     <section class="main">
         <h1>Build your blog. Build your business</h1>
         <p>
@@ -112,11 +45,53 @@
                 try it now &rarr;
             </button>
         </form>
-        <p>Start publishing today with a free 7-day trial.<br/>
-        <strong>No credit card required </strong>
+        <p>Start publishing today with a free 7-day trial.<br />
+            <strong>No credit card required </strong>
         </p>
-        
+
         <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/4be27a080000640005083b6d/0x0.png" alt="Mi etiqueta">
     </section>
-    </body>
+
+    <section class="container">
+        <div class="contenedorVideo">
+            <video controls autoplay muted
+                poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+
+                <source
+                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+                    type="video/mp4" />
+                <source
+                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+                    type="video/webm" />
+            </video>
+
+            <img src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png"
+                alt="">
+        </div>
+
+        <article class="publish">
+            <h1 class="tituloDos"> Publish to your blog in minutes, not hours. </h1>
+            <p style="color: blue" class="parrafoDos">
+                Your blog is your most powerful asset to build, engage,
+                and retain a loyal audience. But you don’t have hours to create
+                content that may or may not work. With Matcha, instantly publish
+                from our library of 10,000+ professionally written articles and build
+                your email list faster with our powerful conversion tool.
+            </p>
+            <form>
+                <p>
+                    Start publishing today:
+                </p>
+                <input type="email" placeholder="enter email" />
+                <button type="submit">
+                    Start My Trial
+                </button>
+            </p>
+            </form>
+            
+        </article>
+    </section>
+
+</body>
+
 </html>
